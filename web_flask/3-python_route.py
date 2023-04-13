@@ -30,7 +30,7 @@ def c_text(text):
 @app.route('/python/<text>', strict_slashes=False)
 def python_text(text):
     """this function replace '_' with ' ' and concat it with the C char"""
-    return "python " + text.replace('_', ' ')
+    return "Python " + text.replace('_', ' ')
 
 
 if __name__ == "__main__":
